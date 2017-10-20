@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the all songs category
-        LinearLayout all_songs_layout = (LinearLayout) this.findViewById(R.id.all_songs_bar);
+        LinearLayout all_songs_layout = (LinearLayout) findViewById(R.id.all_songs_bar);
 
         // Set a click listener on All songs LinearLayout view
         all_songs_layout.setOnClickListener(new View.OnClickListener() {

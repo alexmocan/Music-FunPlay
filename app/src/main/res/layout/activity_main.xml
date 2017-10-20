@@ -14,7 +14,10 @@
 
     <include
         android:id="@+id/player_bar_layout"
-        layout="@layout/play_now_bar" />
+        layout="@layout/play_now_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
 
     <ScrollView
         android:layout_width="match_parent"

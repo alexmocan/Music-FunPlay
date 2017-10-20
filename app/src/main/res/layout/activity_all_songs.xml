@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
+    android:background="@android:color/holo_green_light"
     tools:context="com.example.android.funplay.AllSongsActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     <ImageView
         android:id="@+id/all_songs_activity_background_image"
         style="@style/BackgroundImageStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/toolbar"
         android:contentDescription="@string/background_image_text"
         android:src="@drawable/sea_9" />
 
     <include
         android:id="@+id/player_bar_layout"
-        layout="@layout/play_now_bar" />
+        layout="@layout/play_now_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/player_bar_layout"
-        android:layout_alignParentTop="true">
+        android:layout_below="@id/toolbar">
 
         <TextView
             android:id="@+id/all_songs_activity_description_text"
@@ -29,4 +46,5 @@
             android:text="@string/all_songs_activity_description_text" />
 
     </ScrollView>
+
 </RelativeLayout>
