@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Background color for app -->
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFFFFF</color>
+
+    <!-- Background color for All songs bar. -->
+    <color name="row_bar_background">#33FFFFFF</color>
+
+    <!-- Color for All songs text. -->
+    <color name="all_songs_text">#0D47A1</color>
+
+    <!-- Color for All songs number text. -->
+    <color name="all_number">#990D47A1</color>
+
+    <!-- Color for Albums/Artist/Genres/Music Store text. -->
+    <color name="albums_artists_genres_text">#6200EA</color>
+
+    <!-- Color for Albums/Artist/Genres/Music Store text. -->
+    <color name="albums_artists_genres_number">#990D47A1</color>
+
+    <!-- Color for Playlist text. -->
+    <color name="playlist_text">#000000</color>
+
+    <!-- Color for Favorites text. -->
+    <color name="favorites_text">#000000</color>
+
+    <!-- Color for Favorites text. -->
+    <color name="song_title">#000000</color>
+
+</resources>

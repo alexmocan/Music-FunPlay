@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.funplay.AllSongsActivity">
+
+    <ImageView
+        android:id="@+id/player_activity_background_image"
+        style="@style/BackgroundImageStyle"
+        android:contentDescription="@string/background_image_text"
+        android:src="@drawable/sea_9" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.funplay.MainActivity">
+
+    <ImageView
+        android:id="@+id/background_image"
+        style="@style/BackgroundImageStyle"
+        android:contentDescription="@string/background_image_text"
+        android:src="@drawable/sea_9" />
+
+    <include
+        android:id="@+id/player_bar_layout"
+        layout="@layout/play_now_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/player_bar_layout"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/all_songs_bar_layout"
+                layout="@layout/all_songs_bar" />
+
+            <include
+                android:id="@+id/albums_artists_genres_bar_layout"
+                layout="@layout/albums_artists_genres_bar" />
+
+            <include
+                android:id="@+id/playlists_bar_layout"
+                layout="@layout/playlists_bar" />
+
+            <include
+                android:id="@+id/favorites_bar_layout"
+                layout="@layout/favorites_bar" />
+
+            <include
+                android:id="@+id/recently_played_bar_layout"
+                layout="@layout/recently_played_bar" />
+
+            <include
+                android:id="@+id/most_played_bar_layout"
+                layout="@layout/most_played_bar" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+

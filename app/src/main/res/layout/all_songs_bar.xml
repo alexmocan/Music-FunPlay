@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout style="@style/LinearLayoutHorizontalStyle">
+
+        <LinearLayout
+            android:id="@+id/all_songs_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/all_songs_icon"
+                style="@style/AllSongsPlayBarImageStyle"
+                android:contentDescription="@string/all_songs_image_text"
+                android:src="@drawable/all_songs_icon_1" />
+
+            <TextView
+                android:id="@+id/all_songs_text"
+                style="@style/AllSongsTextStyle"
+                android:text="@string/all_songs_text" />
+
+            <TextView
+                android:id="@+id/all_songs_number"
+                style="@style/AllSongsNumberTextStyle"
+                android:text="@string/songs_number_text" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/all_songs_play_icon"
+            style="@style/AllSongsPlayBarImageStyle"
+            android:contentDescription="@string/all_songs_image_text"
+            android:src="@drawable/play_icon" />
+    </LinearLayout>
+
+</LinearLayout>

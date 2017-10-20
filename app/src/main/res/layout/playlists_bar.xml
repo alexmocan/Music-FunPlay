@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/LinearLayoutHorizontalStyle">
+
+        <TextView
+            android:id="@+id/playlist_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/playlist_text"
+            android:textAllCaps="false"
+            android:textColor="@color/playlist_text"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/add_playlist_image"
+            style="@style/PlaylistsFavoritesRecentlyMostPlayedLeftImageStyle"
+            android:contentDescription="@string/add_playlist_image_text"
+            android:src="@drawable/add_icon" />
+
+        <ImageView
+            android:id="@+id/playlists_detailed_image"
+            style="@style/PlaylistsFavoritesRecentlyMostPlayedRightImageStyle"
+            android:contentDescription="@string/playlist_detailed_image_text"
+            android:src="@drawable/right_icon" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,203 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for Background Image. -->
+    <style name="BackgroundImageStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for Horizontal Linear Layout. -->
+    <style name="LinearLayoutHorizontalStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/row_bar_background</item>
+    </style>
+
+
+    <!-- Style for Playlist Horizontal Linear Layout. -->
+    <style name="PlaylistLinearLayoutHorizontalStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/row_bar_background</item>
+    </style>
+
+    <!-- Style for Vertical Linear Layout . -->
+    <style name="LinearLayoutVerticalStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Image style for All songs bar. -->
+    <style name="AllSongsPlayBarImageStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Text style for All songs bar. -->
+    <style name="AllSongsTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/all_songs_text</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Number text style for All songs bar. -->
+    <style name="AllSongsNumberTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/all_number</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Image style for Albums/artists/genres bar. -->
+    <style name="AlbumsArtistsGenresImageStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <!-- Text style for Albums/artists/genres bar. -->
+    <style name="AlbumsArtistsGenresTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/albums_artists_genres_text</item>
+    </style>
+
+    <!-- Number text style for Albums/artists/genres bar. -->
+    <style name="AlbumsArtistsGenresNumberTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/albums_artists_genres_number</item>
+    </style>
+
+    <!-- Left Image style for Playlists / Favorites / Recently played / Most played bars. -->
+    <style name="PlaylistsFavoritesRecentlyMostPlayedLeftImageStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+
+    <!-- Right Image style for Playlists / Favorites / Recently played / Most played bars. -->
+    <style name="PlaylistsFavoritesRecentlyMostPlayedRightImageStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <!-- Text style for Favorites / Recently played / Most played bars. -->
+    <style name="FavoritesRecentlyMostPlayedTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/favorites_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Number text style for Favorites / Recently played / Most played bars. -->
+    <style name="FavoritesRecentlyMostPlayedNumberTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/all_number</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Left and Right image style for Play now bar. -->
+    <style name="PlayNowBarImageStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <!-- Text style for Play now bar song's title. -->
+    <style name="PlayBarTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/all_songs_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Text style for Activity Description. -->
+    <style name="ActivityDescriptionTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your layout here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/song_title</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,156 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=15] -->
+    <string name="app_name">Music FunPlay</string>
+
+    <!-- Text for Background image. [CHAR LIMIT=100] -->
+    <string name="background_image_text">Background image</string>
+
+    <!-- Text for All songs image. [CHAR LIMIT=50] -->
+    <string name="all_songs_image_text">All songs icon</string>
+
+    <!-- Text for Albums image. [CHAR LIMIT=50] -->
+    <string name="albums_image_text">Albums icon</string>
+
+    <!-- Text for Artists image. [CHAR LIMIT=50] -->
+    <string name="artists_image_text">Artists icon</string>
+
+    <!-- Text for Genres image. [CHAR LIMIT=50] -->
+    <string name="genres_image_text">Genres icon</string>
+
+    <!-- Text for Store image. [CHAR LIMIT=50] -->
+    <string name="store_image_text">Store icon</string>
+
+    <!-- Text for Playlists details image. [CHAR LIMIT=50] -->
+    <string name="playlist_detailed_image_text">Playlists details icon</string>
+
+    <!-- Text for Down image. [CHAR LIMIT=50] -->
+    <string name="down_image_text">Down icon</string>
+
+    <!-- Text for Recently played image. [CHAR LIMIT=50] -->
+    <string name="recently_played_image_text">Recently played icon</string>
+
+    <!-- Text for Most played image. [CHAR LIMIT=50] -->
+    <string name="most_played_image_text">Most played icon</string>
+
+    <!-- Text for Player bar image. [CHAR LIMIT=50] -->
+    <string name="player_bar_player_image_text">Player bar icon</string>
+
+    <!-- Text for Player bar previous image. [CHAR LIMIT=50] -->
+    <string name="player_bar_previous_image_text">Player bar previous icon</string>
+
+    <!-- Text for Player bar play image. [CHAR LIMIT=50] -->
+    <string name="player_bar_play_image_text">Player bar play icon</string>
+
+    <!-- Text for Player bar next image. [CHAR LIMIT=50] -->
+    <string name="player_bar_next_image_text">Player bar next icon</string>
+
+    <!-- Text for All songs title. [CHAR LIMIT=20] -->
+    <string name="all_songs_text">All songs</string>
+
+    <!-- Text for Songs number. [CHAR LIMIT=5] -->
+    <string name="songs_number_text">(0)</string>
+
+    <!-- Text for Albums title. [CHAR LIMIT=20] -->
+    <string name="albums_text">Albums</string>
+
+    <!-- Text for Albums number. [CHAR LIMIT=5] -->
+    <string name="albums_songs_number_text">(0)</string>
+
+    <!-- Text for Artists title. [CHAR LIMIT=20] -->
+    <string name="artists_text">Artists</string>
+
+    <!-- Text for Artists number. [CHAR LIMIT=5] -->
+    <string name="artists_numbers_text">(0)</string>
+
+    <!-- Text for Genres title. [CHAR LIMIT=20] -->
+    <string name="genres_text">Genres</string>
+
+    <!-- Text for Genres number. [CHAR LIMIT=5] -->
+    <string name="genres_numbers_text">(0)</string>
+
+    <!-- Text for Store title. [CHAR LIMIT=20] -->
+    <string name="store_text">Store</string>
+
+    <!-- Text for Store number. [CHAR LIMIT=5] -->
+    <string name="store_numbers_text">(0)</string>
+
+    <!-- Text for Playlists title. [CHAR LIMIT=20] -->
+    <string name="playlist_text">Playlists</string>
+
+    <!-- Text for Add playlist image. [CHAR LIMIT=20] -->
+    <string name="add_playlist_image_text">Add playlist icon</string>
+
+    <!-- Text for Favorites title. [CHAR LIMIT=20] -->
+    <string name="favorites_text">Favorites</string>
+
+    <!-- Text for Favorites number. [CHAR LIMIT=5] -->
+    <string name="favorites_numbers_text">(0)</string>
+
+    <!-- Text for Recently played title. [CHAR LIMIT=20] -->
+    <string name="recently_played_text">Recently played</string>
+
+    <!-- Text for Recently played number. [CHAR LIMIT=5] -->
+    <string name="recently_played_numbers_text">(0)</string>
+
+    <!-- Text for Most played title. [CHAR LIMIT=20] -->
+    <string name="most_played_text">Most played</string>
+
+    <!-- Text for Most played number. [CHAR LIMIT=5] -->
+    <string name="most_played_text_numbers_text">(0)</string>
+
+    <!-- Text for Play bar song title. [CHAR LIMIT=20] -->
+    <string name="player_bar_song_title_text">Song\'s title</string>
+
+    <!-- Text for All songs category. [CHAR LIMIT=20] -->
+    <string name="category_all_songs">All songs</string>
+
+    <!-- Text for Albums category. [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Text for Artists category. [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Text for Genres category. [CHAR LIMIT=20] -->
+    <string name="category_genres">Genres</string>
+
+    <!-- Text for Playlists category. [CHAR LIMIT=20] -->
+    <string name="category_playlists">Playlists</string>
+
+    <!-- Text for Favorites category. [CHAR LIMIT=20] -->
+    <string name="category_favorites">Favorites</string>
+
+    <!-- Text for Recently Played category. [CHAR LIMIT=20] -->
+    <string name="category_recently_played">Recently Played</string>
+
+    <!-- Text for Most Played category. [CHAR LIMIT=20] -->
+    <string name="category_most_played">Most Played</string>
+
+    <!-- Text for Player category. [CHAR LIMIT=20] -->
+    <string name="category_fun_player">Fun player</string>
+
+    <!-- Text for All songs activity description. [CHAR LIMIT=250] -->
+    <string name="all_songs_activity_description_text">This activity will display all songs available in the phone memory, in music folder.</string>
+
+    <!-- Text for Albums activity description. [CHAR LIMIT=250] -->
+    <string name="albums_activity_description_text">This activity will display all the albums available in the phone memory, in music folder.</string>
+
+    <!-- Text for Artists activity description. [CHAR LIMIT=250] -->
+    <string name="artists_activity_description_text">This activity will display all the artists available in the phone memory, in music folder.</string>
+
+    <!-- Text for Genres activity description. [CHAR LIMIT=250] -->
+    <string name="genres_activity_description_text">This activity will display all the genres available in the phone memory, in music folder.</string>
+
+    <!-- Text for Playlists activity description. [CHAR LIMIT=250] -->
+    <string name="playlists_activity_description_text">This activity will display all the playlists available in the FunPlay Music App.</string>
+
+    <!-- Text for Favorites activity description. [CHAR LIMIT=250] -->
+    <string name="favorites_activity_description_text">This activity will display all the favorites songs available in the FunPlay Music App.</string>
+
+    <!-- Text for Recently played activity description. [CHAR LIMIT=250] -->
+    <string name="recently_played_activity_description_text">This activity will display all the recently played songs available in the FunPlay Music App.</string>
+
+    <!-- Text for Most played activity description. [CHAR LIMIT=250] -->
+    <string name="most_played_activity_description_text">This activity will display all most played songs available in the FunPlay Music App.</string>
+
+
+</resources>

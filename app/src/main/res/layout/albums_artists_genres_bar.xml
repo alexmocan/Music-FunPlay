@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/LinearLayoutHorizontalStyle">
+
+        <LinearLayout
+            android:id="@+id/albums_layout"
+            style="@style/LinearLayoutVerticalStyle">
+
+            <ImageView
+                android:id="@+id/albums_image_view"
+                style="@style/AlbumsArtistsGenresImageStyle"
+                android:contentDescription="@string/albums_image_text"
+                android:src="@drawable/albums_icon" />
+
+            <TextView
+                android:id="@+id/albums_text"
+                style="@style/AlbumsArtistsGenresTextStyle"
+                android:text="@string/albums_text" />
+
+            <TextView
+                android:id="@+id/albums_songs_number"
+                style="@style/AlbumsArtistsGenresNumberTextStyle"
+                android:text="@string/songs_number_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/artists_layout"
+            style="@style/LinearLayoutVerticalStyle">
+
+            <ImageView
+                android:id="@+id/artists_image_view"
+                style="@style/AlbumsArtistsGenresImageStyle"
+                android:contentDescription="@string/artists_image_text"
+                android:src="@drawable/artists_icon" />
+
+            <TextView
+                android:id="@+id/artists_text"
+                style="@style/AlbumsArtistsGenresTextStyle"
+                android:text="@string/artists_text" />
+
+            <TextView
+                android:id="@+id/artists_number"
+                style="@style/AlbumsArtistsGenresNumberTextStyle"
+                android:text="@string/artists_numbers_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/genres_layout"
+            style="@style/LinearLayoutVerticalStyle">
+
+            <ImageView
+                android:id="@+id/genres_image_view"
+                style="@style/AlbumsArtistsGenresImageStyle"
+                android:contentDescription="@string/genres_image_text"
+                android:src="@drawable/genres_icon" />
+
+            <TextView
+                android:id="@+id/genres_text"
+                style="@style/AlbumsArtistsGenresTextStyle"
+                android:text="@string/genres_text" />
+
+            <TextView
+                android:id="@+id/genres_number"
+                style="@style/AlbumsArtistsGenresNumberTextStyle"
+                android:text="@string/genres_numbers_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/store_layout"
+            style="@style/LinearLayoutVerticalStyle">
+
+            <ImageView
+                android:id="@+id/store_image_view"
+                style="@style/AlbumsArtistsGenresImageStyle"
+                android:contentDescription="@string/store_image_text"
+                android:src="@drawable/music_store_icon" />
+
+            <TextView
+                android:id="@+id/store_text"
+                style="@style/AlbumsArtistsGenresTextStyle"
+                android:text="@string/store_text" />
+
+            <TextView
+                android:id="@+id/store_number"
+                style="@style/AlbumsArtistsGenresNumberTextStyle"
+                android:text="@string/store_numbers_text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
